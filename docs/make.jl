@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(TableCellCounts, :DocTestSetup, :(using TableCellCounts); re
 
 makedocs(;
     modules=[TableCellCounts],
-    authors="Dilum Aluthge, Brown Center for Biomedical Informatics, contributors",
+    authors="Dilum Aluthge, Brown Center for Biomedical Informatics, and contributors",
     repo="https://github.com/bcbi/TableCellCounts.jl/blob/{commit}{path}#{line}",
     sitename="TableCellCounts.jl",
     format=Documenter.HTML(;
@@ -16,6 +16,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    strict=true,
 )
 
 deploydocs(;

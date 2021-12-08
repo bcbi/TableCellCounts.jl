@@ -2,5 +2,5 @@ using TableCellCounts
 using Test
 
 @testset "TableCellCounts.jl" begin
-    # Write your tests here.
+    @test TableCellCounts._hello_world() == "hello world"
 end

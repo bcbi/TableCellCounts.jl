@@ -1,7 +1,7 @@
 name = "TableCellCounts"
 uuid = "35cd6abc-3ecd-48c1-9a2e-0f6a1285d9d9"
 authors = ["Dilum Aluthge", "Brown Center for Biomedical Informatics", "contributors"]
-version = "0.1.0"
+version = "1.0.0-DEV"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

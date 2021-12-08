@@ -1,5 +1,5 @@
 module TableCellCounts
 
-# Write your package code here.
+_hello_world() = "hello world"
 
-end
+end # module
